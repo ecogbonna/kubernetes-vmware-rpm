@@ -72,4 +72,4 @@ cilium connectivity test
 ```
 
 Prev: [Prepare admin environment](11-kubectl-env.md)<br>
-Next: [Observability](13-cleanup-next-steps.md)
+Next: [Cleanup and next steps](13-cleanup-next-steps.md)
