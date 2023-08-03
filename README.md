@@ -2,8 +2,6 @@
 
 ## Cluster Details
 
-Kubernetes The Hard Way guides you through bootstrapping a highly available Kubernetes cluster with end-to-end encryption between components and RBAC authentication.
-
 * [Kubernetes](https://github.com/kubernetes/kubernetes) 1.27.0
 * [Container Runtime](https://github.com/containerd/containerd) 1.5.9
 * [CNI Container Networking](https://github.com/containernetworking/cni) 0.8.6

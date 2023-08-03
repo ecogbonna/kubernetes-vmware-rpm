@@ -10,7 +10,7 @@ Note: You must have VMware configured at this point
     | ------------  | ---------------------- |:-------------:| :-------------|:------:|-----:|
     | master        | master.localdomain     | Master        | 192.168.1.70  |     2  | 4096 |
     | node1         | node1.localdomain      | Worker        | 192.168.1.71  |     2  | 4096 |
-    | node2         | kubernetes-ha-worker-1 | Worker        | 192.168.1.72  |     2  | 4096 |
+    | node2         | node2.localdomain | Worker        | 192.168.1.72  |     2  | 4096 |
 
     > These are the default settings. They can be changed.
 
