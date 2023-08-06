@@ -71,5 +71,22 @@ Image versions         cilium             quay.io/cilium/cilium:v1.13.4@sha256:b
 cilium connectivity test
 ```
 
+
+
+## Setup crictl
+
+```shell
+cat<<EOF >> /etc/crictl.yaml 
+runtime-endpoint: unix:///run/containerd/containerd.sock
+image-endpoint: unix:///run/containerd/containerd.sock  
+timeout: 2
+EOF
+
+alias crictl='sudo crictl'
+
+```
+
+
+
 Prev: [Prepare admin environment](11-kubectl-env.md)<br>
 Next: [Cleanup and next steps](13-cleanup-next-steps.md)
